@@ -4,12 +4,75 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		body{
+			  height: 100vh;
+			  /* width:100vw; */
+			  margin:0;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		.container {
+            background-color: #f1f1f1;
+            width: 400px;
+            padding: 30px;
+            text-align: center;
+            /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+        }
+
+		h1{
+			margin: 10px 0 0;
+
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			font-size:50px;
+			
+		}
+		h3{
+			margin: 5px 0;
+
+			font-size: 28px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+
+		}
+		.box{
+			padding:10px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			
+		}
+		.color{
+			 display: inline-block;
+            background-color: #f26860;
+            color: white;
+            padding: 18px 25px;
+            border-radius: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 28px;
+            margin-top: 18px;
+			
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"></script>
+	<div class="container">
+		<div class="box">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPr5oVGJQqtBq93LzJVzClLye-E4bzIAoQb5lX6Hy9pw&s=10" alt="img" height="320px" width:200px>
+			
+		</div>
+		<h1>Pricing Card</h1>
+		<h3>price:Rs.200</h3>
+		<h3>Description:lorem ipsum dolor sit amet,consectetur adipiscing elit.</h3>
+		<h3 class="color">Buy Now</h3>
+	</div>
 
 </body>
 
